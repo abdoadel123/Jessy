@@ -1,0 +1,22 @@
+.text1{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0;
+}
+.text2{
+/*    left: 0;*/
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text3{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 5%; 
+}
+
+.smallImg{
+    width: 150px;
+}

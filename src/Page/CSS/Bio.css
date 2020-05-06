@@ -1,0 +1,66 @@
+.bioMain{
+    width: 100%;
+    height: 87%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* background: black; */
+}
+.bioMain>div{
+    width: 50%;
+}
+
+.vidSlidee{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.slidee{
+    margin: 3.5% 0 0 7%;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+}
+.arrowTope{
+    margin: 5% 2% 0 45%;
+    
+}
+.arrowDowne{
+    margin: 68% 0 0 45%;
+}
+.right{
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.left{
+    position: relative;
+}
+.underYearHr{  
+    float: left;
+    margin:0 0 0 3% ;
+}
+.texte{
+    margin:0 10% 0 15% ;
+    width: 400pt;
+    font: italic 15pt "Times BoldItalic", Times, Georgia, serif,bold;
+}
+.textee{
+    margin:0 10% 0 15% ;
+    font: italic 15pt "Times BoldItalic", Times, Georgia, serif,bold;
+}
+.txt{
+    color: gray;
+    position: relative;;
+    
+}
+.txt:hover{
+    color: white;
+}
+.beforYearHr{
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+}

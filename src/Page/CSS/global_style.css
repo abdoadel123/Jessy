@@ -1,0 +1,68 @@
+html,body
+{
+	background: url('./img/Jessy-el--murr.png');
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+header
+{
+	width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header>div
+{
+    width: 33%;
+}
+.menue
+{
+    float:right;
+}
+.titel{
+    text-align: center;
+    color: #ffffff;
+    font: italic 20px "Times BoldItalic", Times, Georgia, serif;
+}
+/*///////////////////////////////////////////////*/
+footer
+{
+    /*background-color: black;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+
+}
+footer>div
+{
+    width: 50%;
+}
+.share
+{
+    margin-left: 15px;
+    float: left;
+}
+.down{
+    margin-right: 7px;
+    margin-top:   3px;
+    margin-left:  7px;
+    float: right;
+}
+.scroll
+{
+    margin:0 8px 0 0;
+    float: right;
+    color: #ffffff;
+    font: italic 17px "Lato Regular", Times, Georgia, serif;
+}

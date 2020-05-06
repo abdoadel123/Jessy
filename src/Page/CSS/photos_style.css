@@ -1,0 +1,24 @@
+.photo_main
+{
+	width: 100%;
+	height: 87%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;   
+}
+.photo_main>div
+{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.photo_main>div>img
+{
+	width: 50%;
+    height: 50%; 
+}
+.photo_main>div:hover img:not(:hover){
+	opacity: 0.2;
+}

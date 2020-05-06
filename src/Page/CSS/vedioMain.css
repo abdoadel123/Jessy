@@ -1,0 +1,44 @@
+.vedioMain{
+    width: 100%;
+    height: 87%;
+}
+.vidSlide{
+    position: relative;
+    display: grid;
+    flex-direction: row;
+}
+.slide{
+    position: relative;
+    display:-webkit-flex;
+    margin: 3.5% 0 0 27%;
+    flex-direction: row;
+}
+.tex{
+    position: relative;
+    margin: -4.5% 0 0 15%;
+    display: flex;
+    flex-direction: column;
+} 
+.tex1{
+    position: relative; 
+    display: flex;
+    color: #ffffff;
+    font: italic 30pt "Times BoldItalic", Times, Georgia, serif,bold;
+    text-align: center;
+}
+.tex2{
+    position: relative;
+    width: 95%;
+    color: #ffffff;
+    font: italic 17pt "Times BoldItalic", Times, Georgia, serif,bold;
+}
+
+.arrowTop{
+    position: relative;
+    margin: 3% 5% 0 39%;
+    
+}
+.arrowDown{
+    position: relative;
+    margin: 0% 0 0 39%;
+}

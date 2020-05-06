@@ -1,0 +1,76 @@
+html,body{
+    background: url('Jessy-el--murr.png');
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background: blue; */
+}
+header>div{
+    width: 33%;
+}
+footer{
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    /* background: brown; */
+}
+footer>div{
+    width: 50%;
+}
+.logo{
+    width: 10%;
+    padding-top: 20px;
+    opacity: 100%;
+}
+.menue{
+    float:right;
+    width: 4%;
+    height: 14px;
+    opacity: 100%;
+    fill: 100%;
+}
+.titel{
+    text-align: center;
+    color: #ffffff;
+    font: italic 12px "Times BoldItalic", Times, Georgia, serif;
+    font-weight: bold;
+}
+.share{
+    margin-left: 15px;
+    float: left;
+    width: 2%;
+}
+.scroll{
+    margin:0 8px 3px 0;
+    float: right;
+    color: #ffffff;
+    font: 10px sans-serif;
+    font-weight: bold;
+}
+.down{
+    margin-right: 7px;
+    margin-top: 2px;
+    margin-left: 7px;
+    float: right;
+    width: 1.5%;
+    height: 14px;
+
+}
+
+/*top - - left*/
